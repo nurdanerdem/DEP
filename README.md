@@ -1,5 +1,5 @@
 # DEP
-A simple MATLAB GUI for plotting dielectrophoretic (DEP) response of the cells based on the single shell cell model given cell’s dielectric parameters such as conductivity, permittivity, radius and cell membrane thickness. It allows you to test the DEP response of cells numerically, before starting a DEP experiment. 
+A simple MATLAB GUI for plotting dielectrophoretic (DEP) response of the cells based on the single shell cell model given the dielectric parameters of a cell such as conductivity, permittivity, radius and cell membrane thickness. It allows you to test the DEP response of cells numerically before starting a DEP experiment. 
 Released Date: June, 2017 MATLAB (R2016a)
 
 ## Prerequisites
@@ -23,7 +23,7 @@ For a single-shelled cell, dielectric parameters to be entered are;
 *	Membrane permittivity (a.k.a. outer permittivity) 
 *	Cytoplasm permittivity ( a.k.a. inner permittivity)
 *	Permittivity of the suspending medium (usually taken as 80xℇ_0 )
-*	Folding factor (take as 1 if not known)
+*	Folding factor (take it as 1 if not known)
 
 
 ℇ_0  is called the permittivity of free space and taken as 8.85 x 10-12. It is included in the calculation already, so please only enter the coefficient part of the permittivities (i.e enter 80 for a permittivity of 80xℇ_0). 
